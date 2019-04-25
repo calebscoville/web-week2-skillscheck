@@ -106,7 +106,10 @@ const middleNums = numbers.splice(1, 2, 3)
 
 //////////////////PROBLEM 13////////////////////
 
-// Create a function called 'arrayReverser' that takes in one parameter, arr. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array in reverse and add each item to the new reversed array. Finally, return the new reversed array
+// Create a function called 'arrayReverser' that takes in one parameter, arr. 
+// Inside of arrayReverser, create an empty array called 'reversed'. Using a for 
+// loop, loop over the passed in array in reverse and add each item to the new 
+// reversed array. Finally, return the new reversed array
 
 //Code Here
 
@@ -120,7 +123,9 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
-// Code Here
+const myNumbers = doubled.map(function(doubled){
+	
+})
 
 //////////////////PROBLEM 15////////////////////
 
@@ -136,13 +141,18 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 //////////////////PROBLEM 17////////////////////
 
-// Last, lets use .forEach to find the index of each item in the array. First, create an empty array called myNumbersIndex. Next, using forEach, push each items index from the myNumbers array to the myNumbersIndex array
-
+// Last, lets use .forEach to find the index of each item in the array. 
+// First, create an empty array called myNumbersIndex. Next, using forEach, 
+// push each items index from the myNumbers array to the myNumbersIndex array
+const myNumbersIndex() {
+	myNumbersIndex.forEach(function(myNumbers))
+}
 // Code Here
 
 //////////////////PROBLEM 18////////////////////
 
-// Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
+// Did you know that George Foreman has five sons named George? Let's go ahead and change everyone's 
+// name in the notGeorge array to George using .map. Call the new array 'forTheLoveOfGeorge'
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
 // Code Here
