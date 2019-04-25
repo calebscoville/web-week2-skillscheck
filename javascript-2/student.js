@@ -22,9 +22,17 @@ const name = 'Caleb'
 const phrase = ' '
 
 //////////////////STEP 5////////////////////
-//Create an if statement that checkes to see if the lovesCode variable is equal to true, if it is, set the phrase variable created above to 'I love code', it it's not true set the phrase variable to 'I do not love to code'
+//Create an if statement that checkes to see if the lovesCode variable is equal to true, 
+// if it is, set the phrase variable created above to 'I love code', it it's not true set 
+// the phrase variable to 'I do not love to code'
 
-// Code Here
+function lovesCode(a) {
+    if (a = true) {
+        return "I love code";
+    } else {
+        return "I do not love to code"
+    }
+}
 
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.
