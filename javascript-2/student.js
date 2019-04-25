@@ -26,7 +26,7 @@ const phrase = ' '
 // if it is, set the phrase variable created above to 'I love code', it it's not true set 
 // the phrase variable to 'I do not love to code'
 
-function lovesCode(a) {
+function lovesCode(a) { 
     if (a = true) {
         return "I love code";
     } else {
