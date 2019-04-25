@@ -1,0 +1,142 @@
+* {
+    font-size: 35px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+header {
+    background: gray;
+    height: 75px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-items: space-between;
+    margin-top: 0px;
+    align-content: stretch;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: top;
+}
+
+.smallheaders {
+    display: flex;
+    justify-content: flex-end;
+    align-items: top;
+    align-content: stretch;
+}
+
+.topbox {
+    background: black;
+    height: 275px;
+    color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    align-content: stretch;
+}
+
+h2 {
+    font-size: 50px
+}
+
+.bigwhite1 {
+    background: white;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    align-content: stretch;
+}
+
+.tbox1 {
+    background: rgb(165, 235, 200);
+    height: 75%;
+    width: 22%;
+    margin: 10%
+    
+}
+
+.tbox2 {
+    background: rgb(165, 235, 200);
+    height: 75%;
+    width: 22%;
+}
+
+.tbox3 {
+    background: rgb(165, 235, 200);
+    height: 75%;
+    width: 22%;
+    margin: 10%
+}
+
+.bigwhite2 {
+    background: white;
+    height: 175px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    align-content: stretch;
+}
+
+.obox1 {
+    background: rgb(233, 190, 111);
+    height: 75%;
+    width: 45%;
+    margin: 10%;
+}
+
+.obox2 {
+    background: rgb(233, 190, 111);
+    height: 75%;
+    width: 45%;
+    margin: 10%;
+}
+
+
+.bigwhite3 {
+    background: white;
+    height: 175px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    align-content: stretch;
+}
+
+textbox {
+    font-size: 13px;
+    height: 33%;
+    width: 33%;
+    margin: 10%;
+}
+
+img {
+    height: 75%;
+    width: 25%;
+    margin: 10%
+}
+
+footer {
+    background: gray;
+    height: 150px;
+}
+
