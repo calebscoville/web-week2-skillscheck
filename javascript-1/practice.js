@@ -124,14 +124,14 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, let's use .map to create a new array that doubles each number. Call the new array 'doubled'
 
 const myNumbers = doubled.map(function(doubled){
-	
+return myNumbers
 })
 
 //////////////////PROBLEM 15////////////////////
 
 // Now lets use .filter to only get the nubmer(s) greater than 100. Call the new array 'filtered'
 
-// Code Here
+const myNumbers = doubled.filter(i > 100)
 
 //////////////////PROBLEM 16////////////////////
 
@@ -144,10 +144,10 @@ const myNumbers = doubled.map(function(doubled){
 // Last, lets use .forEach to find the index of each item in the array. 
 // First, create an empty array called myNumbersIndex. Next, using forEach, 
 // push each items index from the myNumbers array to the myNumbersIndex array
+
 const myNumbersIndex() {
 	myNumbersIndex.forEach(function(myNumbers))
 }
-// Code Here
 
 //////////////////PROBLEM 18////////////////////
 
