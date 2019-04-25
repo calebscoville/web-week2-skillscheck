@@ -4,7 +4,7 @@
 //////////////////Step 1////////////////////
 // Create a new array called 'faveColors' and set it your three favorite colors as strings.
 
-const faveColors = ['blue', 'yellow', 'black']
+const faveColors = ['#4D4DFF', 'yellow', 'black']
 
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstname, superHeroName, homeTown, superPowers, superPowerXP, profileImage. 
@@ -36,15 +36,22 @@ console.log(me)
 // that is the value of your firstName on the me object. The next variable is 'superName' which is the value 
 // of superHeroName on the me object. Last is 'homeTown' which will be the value of homeTown on the me object
 
-const regularName
-const 
+me.regularName = firstName
+me.superName = superHeroName
+me.homeTown = homeTown
 
 //////////////////Step 4////////////////////
-//Create a function called 'setColor' that takes in one param called arr. Just to make sure that we only ever have three colors, use splice to trim the array to 3 colors. 
+//Create a function called 'setColor' that takes in one param called arr. 
+// Just to make sure that we only ever have three colors, use splice to trim the array to 3 colors. 
 
-// Next, create a for loop to loop over the array. If any of the colors you chose is 'blue', change it's value to '#4D4DFF' which is just a more appealing color of blue. Outside of the for loop but still inside of setColor, invoke the function called background which will take in three arguments. These arguments should be each item of your array. This is a function we created for you to set the background colors.
+// Next, create a for loop to loop over the array. If any of the colors you chose is 'blue', 
+// change it's value to '#4D4DFF' which is just a more appealing color of blue. Outside of the 
+// for loop but still inside of setColor, invoke the function called background which will take in 
+// three arguments. These arguments should be each item of your array. This is a function we created for you to set the background colors.
 
-// CODE HERE
+function setColor(arr) {
+    for(let of faveColors)
+}
 
 //////////////////Step 5////////////////////
 //Create a function called 'setPowers' that takes in arr as a parameter. Loop over the arr param and run a function called createLi(), which will take each item of the array as an agument. The createLi function is a function we created to set the data on the screen. It outside the scope of this project
